@@ -1,7 +1,7 @@
 # Priority Scheduling Simulator — TODO
 
 ## 0) Decide and document assumptions 
-- [ ] Priority direction: lower number = higher priority OR higher number = higher priority
+- [X] Priority direction: lower number = higher priority OR higher number = higher priority
 - [ ] Scheduling mode: non preemptive, preemptive, or both
 - [ ] Tie-breaker when priorities match and how to
 - [ ] Time model: tick-based 
