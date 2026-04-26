@@ -14,7 +14,6 @@ A small Python simulator for **Priority CPU Scheduling** supporting both:
 
 ```text
 Priority-Scheduling/
-  run_demo.py
   src/
     __init__.py
     process.py
