@@ -36,7 +36,7 @@ Open the project, and then open a terminal in the root folder.
 navigate to 
 
 ```bash
-    */priority-scheduling/src
+cd src
 ```
 
 execute: 
