@@ -28,6 +28,9 @@ class Process:
     start_time: int | None = field(default=None, compare=False)
     completion_time: int | None = field(default=None, compare=False)
 
+    cpu_demand: int = field(default=0, compare=False)
+    urgency: int = field(default=0, compare=False)
+
     def __post_init__(self) -> None:
         if self.burst_time <= 0:
             raise ValueError(f"burst_time must be > 0 for pid={self.pid}")
