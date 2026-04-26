@@ -189,4 +189,8 @@ if __name__ == "__main__":
         if t in res.events_by_time:
             print(f"t={t}: {res.events_by_time[t]}")
 
+    print("\ntimeline segments")
+    for seg in res.timeline:
+        print(seg)
+
     print("\npreemptions:", res.preemptions)
