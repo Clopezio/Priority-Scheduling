@@ -156,7 +156,7 @@ if __name__ == "__main__":
             return 4
         return 5
 
-    random.seed(0)
+    random.seed()
 
     processes: list[Process] = []
     generated_meta: list[tuple[str, int, int]] = []  
