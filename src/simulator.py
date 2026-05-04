@@ -9,7 +9,7 @@ from .process import Process, TimelineSegment
 
 @dataclass
 class SimulationConfig:
-    preemptive: bool = False
+    preemptive: bool = True
     context_switch_cost: int = 0  
     log_events: bool = True       
 

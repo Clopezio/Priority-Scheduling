@@ -5,15 +5,6 @@ from dataclasses import dataclass, field
 
 @dataclass(order=True)
 class Process:
-    """
-    Represents a single process/job in the scheduling simulation.
-
-    Notes:
-    - Lower priority number => higher priority.
-    - `seq` is an internal tie-breaker for FCFS ordering among same-priority
-      processes (it represents the order the process was enqueued/seen).
-    """
-
     priority: int
     arrival_time: int
     seq: int = field(default=0, compare=True)
