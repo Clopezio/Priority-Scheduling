@@ -31,4 +31,4 @@ class Process:
 class TimelineSegment:
     start: int
     end: int
-    label: str  
+    label: str
