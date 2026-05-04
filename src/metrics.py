@@ -1,1 +1,0 @@
-# This .py calculates the results obtained from the simulation

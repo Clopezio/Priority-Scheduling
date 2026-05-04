@@ -1,4 +1,3 @@
-# this .py runs the main scheduling simulation
 from __future__ import annotations
 
 import heapq
@@ -116,7 +115,6 @@ def simulate(processes: List[Process], cfg: SimulationConfig) -> SimulationResul
                 dispatch(heapq.heappop(ready))
 
         if running is not None:
-            # what happened during the tick [now, now+1)
             log_at(now, f"run {running.pid} remaining_before={running.remaining_time}")
             _append_segment(timeline, now, now + 1, running.pid)
             running.remaining_time -= 1
